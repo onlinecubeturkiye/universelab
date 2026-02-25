@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>UniverseLab - Start</title>
+<style>
+body {
+    margin:0; 
+    background:black; 
+    display:flex; 
+    justify-content:center; 
+    align-items:center; 
+    flex-direction:column; 
+    height:100vh; 
+    color:white; 
+    font-family:Arial,sans-serif;
+}
+#logo {
+    width:300px;
+    margin-bottom:40px;
+}
+button {
+    padding:15px 30px;
+    font-size:20px;
+    cursor:pointer;
+    border:none;
+    border-radius:8px;
+    background:#111;
+    color:white;
+    transition:0.3s;
+}
+button:hover {
+    background:#333;
+}
+</style>
+</head>
+<body>
+
+<img id="logo" src="UNIVERSE_20260225_140824_0000.png" alt="UniverseLab">
+<button onclick="startSimulation()">Start UniverseLab</button>
+
+<script>
+function startSimulation(){
+    window.location.href = "universe.html";
+}
+</script>
+
+</body>
+</html>
